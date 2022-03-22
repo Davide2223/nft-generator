@@ -4,16 +4,20 @@ from PIL import Image
 import os
 import random
 
-list_nft = []
+list_nft = [] # empty list 
+
+#parametres
 j = 1
 i = 1
 k = 1
 r = 1
 
+#part of set rare img in a random way
 nm = random.randint(1, len(list_img_nft))
 c = 1
-list_rare_img = [i for i in os.listdir('rare_img')]
+list_rare_img = [i for i in os.listdir('rare_img')] #list of rare img
 
+#algorithm of match img based on a "binary tree"
 for n in range(len(list_img_nft)):
     while i <= len(list_img_nft[0])-1:
         if c == nm:

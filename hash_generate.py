@@ -7,14 +7,14 @@ list_dilay = os.listdir('dilay') #list used for register any directory of imgs
 
 #function used for generate hash for nft
 def generate_hash_nft(hash_img):
-    unicode = hash_img 
+    unicode = hash_img #the hash of nft is based on hash of single img
     hash = sha256(unicode.encode('utf-8')).hexdigest()
     
     return hash
 
 #function uded for generate hash for img
 def generate_hash_img(name, size, width, height):
-    unicode = name + str(size) + str(width) + str(height)
+    unicode = name + str(size) + str(width) + str(height) #the hash of img is based on name, size, width, height of img
     hash = sha256(unicode.encode('utf-8')).hexdigest()
     
     return hash

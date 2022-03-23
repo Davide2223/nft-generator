@@ -25,7 +25,7 @@ Which is very useful for those who want to sell NFT or even packages of NFT give
 How a nft generator works?
 ----------------
 
-There is no general functioning for an nft generator, I have developed my own algorithm which is based on the final binary tree grouping if you can call it that.
+There is no general functioning for an nft generator, I have developed my own algorithm which is based on the final tree grouping if you can call it that.
 The rest is present in the code which is commented step by step
 
 

@@ -1,0 +1,1 @@
+In this folder there is a set of rare dilays (in all the macths that will be performed there will be only one with these dilays, and a rare nft will be defined) 
